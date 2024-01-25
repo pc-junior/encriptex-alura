@@ -268,7 +268,7 @@ footer a {
 
 /* Quando o texto for selecionado */
 ::selection {
-    background-color: #0F4C81;
+    background-color: #000000;
     color: #FFFFFF;
 }
 
@@ -342,13 +342,14 @@ footer a {
 
     .title {
         left: 230px;
-        font-size: 33px;
+        font-size: 25px;
     }
 
     .encrypt {
         margin: 0;
         padding: 0;
         width: 100%;
+        height: 60vh;
     }
 
     .main {
@@ -377,6 +378,11 @@ footer a {
         font-size: 25px;
         margin: 20px 0 20px;
     }
+
+    textarea {
+        height: 30vh;
+    }
+
     #txt-area2 {
         font-size: 20px;
         text-align: center;
@@ -444,7 +450,7 @@ footer a {
     .title {
         left: 115px;
         top: 35px;
-        font-size: 25px;
+        font-size: 15px;
     }
     .main {
         margin: -40px 20px 60px 20px
@@ -456,7 +462,12 @@ footer a {
         margin: 45px 27px;
         padding: 0px;
         width: 100%;
+        height: 50vh;
     }
+    textarea {
+        height: 20vh;
+    }
+
     #decrypt {
         margin: 30px 53px 20px;
         padding: 0;
